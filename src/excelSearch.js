@@ -72,7 +72,7 @@ const ExcelSearch = ({ searchFile, searchConditions }) => {
 
   return (
     <div>
-      <button onClick={handleSearch}>Search and Download</button>
+      <button id="DownloadBtn" onClick={handleSearch}>Search and Download</button>
     </div>
   );
 };

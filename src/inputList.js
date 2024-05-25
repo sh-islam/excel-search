@@ -21,7 +21,7 @@ const InputList = ({onSubmit, isFilePicked}) => {
   };
 
   const handleSubmit = () => {
-    onSubmit(inputs)
+    onSubmit(inputs);
   };
 
   // Disable if file isn't picked and only first inputs empty

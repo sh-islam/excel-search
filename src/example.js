@@ -1,13 +1,15 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 
-const Example1 = () => {
+const Examples = () => {
   return (
     <div>
-      <h1>Example 1</h1>
-      <p>This is the content of example 1.</p>
-      <a href="/">Back to Home</a> {/* Link back to main page */}
+      <h1>Examples</h1>
+      <h2>Example 1</h2>
+      <p>Ex 1 content</p>
+      <p><Link to="/">Back to Home</Link></p> 
     </div>
   );
 };
 
-export default Example;
+export default Examples;
