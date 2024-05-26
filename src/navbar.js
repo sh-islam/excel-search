@@ -7,7 +7,7 @@ function Navbar() {
   return (
     <nav className="navbar">
       <div className="nav-container">
-        <Link to="/" className="nav-logo">
+        <Link to="/excel-search/" className="nav-logo">
           <img src={appIcon} alt="App Logo" className="logo-image" />
         </Link>
         <ul className="nav-links">
