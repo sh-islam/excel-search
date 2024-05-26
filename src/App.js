@@ -27,7 +27,7 @@ const App = () => {
         <NavBar />
         <Routes>
           <Route
-            path="/excel-search/"
+            path="/"
             element={
               <>
                 <h1>Searching Excel Sheets</h1>
@@ -63,7 +63,7 @@ const App = () => {
               </>
             }
           />
-          <Route path="excel-search/example" element={<Examples/>} />
+          <Route path="/example" element={<Examples/>} />
         </Routes>
         {/* <Footer /> */}
       </div>
