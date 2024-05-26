@@ -36,8 +36,8 @@ const App = () => {
                     file and find rows that meet your search criteria.
                     <br />
                     <br />
-                    Returned rows will have highlighted cells based on the
-                    cell value.
+                    {/* Returned rows will have highlighted cells based on the
+                    cell value. */}
                     <br />
                     Cell values accept comparison operators such as &gt;=,
                     &lt;=, &gt;, and &lt;.
