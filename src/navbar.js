@@ -11,8 +11,8 @@ function Navbar() {
           <img src={appIcon} alt="App Logo" className="logo-image" />
         </Link>
         <ul className="nav-links">
-          <li><Link to="/">Home</Link></li> 
-          <li><Link to="/example">Examples</Link></li> 
+          <li><Link to="/excel-search/">Home</Link></li> 
+          <li><Link to="/excel-search/example/">Examples</Link></li> 
         </ul>
       </div>
     </nav>
