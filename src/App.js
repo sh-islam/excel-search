@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./App.css";
 import NavBar from "./navbar";
+import Footer from "./footer";
 import InputList from "./inputList";
 import FileBrowser from "./fileBrowser";
 import ExcelSearch from "./excelSearch";
@@ -64,6 +65,7 @@ const App = () => {
           />
           <Route path="/example" element={<Examples/>} />
         </Routes>
+        <Footer />
       </div>
     </Router>
   );

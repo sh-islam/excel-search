@@ -1,13 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./navbar.css";
-import appIcon from "./app-icon.png"; // Ensure the path is correct
+import appIcon from "./app-icon.png"; 
 
 function Navbar() {
   return (
     <nav className="navbar">
-      <div className="container">
-        <Link to="/" className="logo">
+      <div className="nav-container">
+        <Link to="/" className="nav-logo">
           <img src={appIcon} alt="App Logo" className="logo-image" />
         </Link>
         <ul className="nav-links">
