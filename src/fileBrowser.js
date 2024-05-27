@@ -4,7 +4,17 @@ import './fileBrowser.css';
 const FileBrowser = ({ onFileSelect }) => {
   const handleFileChange = (event) => {
     const file = event.target.files[0];
-    onFileSelect(file);
+    if (file) {
+      const fileName = file.name;
+      const fileExtension = fileName.split('.').pop().toLowerCase();
+      
+      if (fileExtension === 'xlsx') {
+        onFileSelect(file);
+      } else {
+        alert('Please select a valid .xlsx file');
+        event.target.value = ''; // Clear the file input
+      }
+    }
   };
 
   return (
