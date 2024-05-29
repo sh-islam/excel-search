@@ -137,7 +137,7 @@ const Examples = () => {
           </tbody>
         </table>
       </div>
-      <p style={{marginTop: "100px", marginBottom: "50px", textAlign: "center"}}><Link to="/">Back to Home</Link></p>
+      <p style={{marginTop: "100px", marginBottom: "50px", textAlign: "center"}}><Link to="/excel-search/">Back to Home</Link></p>
     </div>
   );
 };
