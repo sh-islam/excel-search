@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, Link} from "react-router-dom";
 import "./App.css";
 import NavBar from "./navbar";
 import Footer from "./footer";
@@ -45,9 +45,8 @@ const App = () => {
                     <br />
                     To find a range, create another condition with the same
                     column name and set comparison.
-                    <br />
-                    See here for examples.
                   </p>
+                  <p>See <Link to="/excel-search/example/">here</Link> for examples.</p>
                 </div>
                 <FileBrowser onFileSelect={handleFileSelect} />
                 <InputList
