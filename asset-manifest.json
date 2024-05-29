@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/excel-search/static/css/main.966ae58c.css",
-    "main.js": "/excel-search/static/js/main.16162c98.js",
+    "main.js": "/excel-search/static/js/main.bbde0194.js",
     "static/js/453.baaf8968.chunk.js": "/excel-search/static/js/453.baaf8968.chunk.js",
     "static/media/app-icon.png": "/excel-search/static/media/app-icon.aaef6309456dc68785e2.png",
     "index.html": "/excel-search/index.html",
     "main.966ae58c.css.map": "/excel-search/static/css/main.966ae58c.css.map",
-    "main.16162c98.js.map": "/excel-search/static/js/main.16162c98.js.map",
+    "main.bbde0194.js.map": "/excel-search/static/js/main.bbde0194.js.map",
     "453.baaf8968.chunk.js.map": "/excel-search/static/js/453.baaf8968.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.966ae58c.css",
-    "static/js/main.16162c98.js"
+    "static/js/main.bbde0194.js"
   ]
 }
